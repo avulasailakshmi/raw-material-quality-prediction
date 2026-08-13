@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated ML artifacts
+models/*.pkl
+models/*.csv
+models/summary.json
+
+# Logs and local env
+*.log
+.env
